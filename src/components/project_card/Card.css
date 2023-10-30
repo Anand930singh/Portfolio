@@ -71,13 +71,19 @@
 
 @media (max-width: 600px) {
 	.cardImg img{
-		height: 150px;
+		position: relative;
+		/* height: ; */
 	}
 	.card-item{
-		height:12rem;
+		/* height:12rem; */
+		position: relative;
+		width:auto;
+		margin-left: -4rem;
+		margin-right: 0.5rem;
 	}
 	.card{
-		width:22rem;
+		/* width:22rem; */
+		/* width:100%; */
 	}
 	.cardContent{
 	top: 1rem;
