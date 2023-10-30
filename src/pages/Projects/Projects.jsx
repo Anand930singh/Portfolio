@@ -21,7 +21,7 @@ function Projects() {
         {
             name:"Portfolio Website",
             image:"https://seekvectorlogo.com/wp-content/uploads/2019/05/portfolio-plus-banking-software-vector-logo.png",
-            github:"https://github.com/Anand930singh/Resume",
+            github:"https://github.com/Anand930singh/Portfoio.git",
             tech:["ReactJS"]
         },
         {
