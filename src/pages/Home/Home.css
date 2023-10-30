@@ -168,10 +168,14 @@
     padding-left: 2rem;
   }
 
-  /* .aboutCardContain {
+  .aboutCardContain {
     height: auto;
-  } */
-
+  }
+  .traceLineContain{
+    position: relative;
+    /* height: auto; */
+    margin-right:0.1em;
+  }
   .projectCards {
     margin-left: 1.5rem;
     width: 93%;
@@ -198,11 +202,7 @@
     margin-right:-0.5em;
   }
 
-  .traceLineContain{
-    position: relative;
-    height: auto;
-    margin-right:0.1em;
-  }
+  
 
 }
 
