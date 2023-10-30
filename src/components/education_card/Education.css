@@ -1,0 +1,77 @@
+.eduContainer{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.eduHead::before {
+    color: #988e9f;
+    font-size: 1.5rem;
+    font-weight: 300;
+    content: "<Education/>";
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding: 0 0.4em;
+  }
+  
+  .eduHead {
+    margin-bottom: 4rem;
+  }
+  .detailsContain{
+    position: relative;
+    /* border:1px solid blue; */
+    color:white;
+    padding: 1rem;
+    background-color:rgb(1, 1, 22);
+    border-radius: 1rem;
+    width:100%;
+    margin-left:0.7rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    animation: anim 1.5s ease-in;
+  }
+
+  @keyframes anim{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+
+  .courseInstitute{
+    position: relative;
+    border-bottom:3px solid white;
+    width:60%;
+    @media (max-width:600px) {
+        width:100%;
+    }
+  }
+  .cours{
+    position: relative;
+    font-size: 1.3em;
+    font-weight: 600;
+    color:aquamarine;
+
+    @media (max-width:600px) {
+        font-size: 1em;
+    }
+
+  }
+  .institute{
+    position: relative;
+    font-size: 2em;
+    font-weight: 700;
+    color:white;
+    @media (max-width:600px) {
+        font-size: 1.5em;
+    }
+  }
+  .courseDetails{
+    position: relative;
+    font-style: italic;
+    margin-top: 2rem;
+  }
+

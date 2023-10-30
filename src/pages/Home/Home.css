@@ -1,0 +1,201 @@
+.home_body {
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_1280.png');
+  width: 100vw;
+  height: auto;
+  position: absolute;
+}
+
+.planet_svg {
+  position: relative;
+  height: 50vh;
+  width: 50vw;
+  object-fit: cover;
+}
+
+.planet_svg img {
+  position: absolute;
+  top: -40rem;
+  left: -23rem;
+  height: 65rem;
+  margin: 0;
+  transform: rotate(180deg);
+}
+
+/* Styles for screens with a maximum width of 600 pixels (mobile devices) */
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: auto;
+  /* width:100%; */
+  padding-left: 10rem;
+  grid-row-gap: 2rem;
+  /* border:1px solid yellow; */
+}
+
+.aboutCardContain {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.aboutCardContain:nth-child(1) {
+  align-items: center;
+  height: 40rem;
+}
+
+.aboutCardContain:nth-child(2) {
+  height: 60rem;
+}
+.aboutCardContain:nth-child(3) {
+  align-items: center;
+  height: 60rem;
+}
+.aboutCardContain:nth-child(4) {
+  align-items: center;
+  height: 50rem;
+}
+.aboutCardContain:nth-child(5) {
+  align-items: center;
+  height: 50rem;
+}
+
+.traceLineContain {
+  position: relative;
+  height: 100%;
+  margin-right: 0.5em;
+}
+
+.branchContain {
+  opacity: 0.7;
+}
+
+.projectCards {
+  margin-right: 7rem;
+  object-fit: cover;
+  position: absolute;
+  left: -3rem;
+  border-radius: 1rem;
+  padding-top: 2.5em;
+  padding-left: 2.5rem;
+  /* border:1px solid yellow; */
+  /* background-image: url('https://snapwordz.com/dl/ss/rm_wm/dl.beatsnoop.com-FU2kOBGgb6.jpg'); */
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+
+.projectsContainer {
+  margin-top: 6rem;
+  height: auto;
+}
+
+.projectHead::before {
+  color: #988e9f;
+  font-size: 1.5rem;
+  font-weight: 300;
+  content: "<Projects/>";
+  border: 1px solid grey;
+  border-radius: 1em;
+  padding: 0 0.4em;
+}
+
+.projectHead {
+  margin-bottom: 4rem;
+}
+.skillCardHome{
+  width:80%;
+}
+
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 3s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+.contacts{
+  position: absolute;
+  color:white;
+  top:3rem;
+  right: 3rem;
+  display:flex;
+  flex-direction: row;
+}
+.contacts div{
+  border:2px solid white;
+  padding:0.5rem 0.68rem;
+  border-radius: 100%;
+  margin-right:1rem;
+  margin-bottom: 0.5rem;
+  color:white;
+}
+.contacts div:hover{
+  color:aqua;
+  border-color: aqua;
+}
+@media (max-width: 600px) {
+  .contacts{
+    flex-direction: column;
+    right:0.5rem;
+    top:1rem;
+  }
+  .contacts div{
+    color:aqua;
+  border-color: aqua;
+  }
+
+  .traceLineContain{
+    margin-right:0.1em;
+  }
+  .planet_svg {
+    position: relative;
+    height: 14rem;
+    width: 25.5rem;
+    object-fit: cover;
+  }
+
+  .planet_svg img {
+    position: absolute;
+    top: -14rem;
+    left: -13rem;
+    height: 30rem;
+    margin: 0;
+  }
+
+  .cardsContainer {
+    padding-left: 2rem;
+  }
+
+  .aboutCardContain {
+    height: 35rem;
+  }
+
+  .projectCards {
+    margin-left: 1.5rem;
+  }
+
+  .aboutCardContain:nth-child(1) {
+    align-items: center;
+    height: 39rem;
+  }
+  .aboutCardContain:nth-child(2) {
+    height: 68rem;
+  }
+  .aboutCardContain:nth-child(3) {
+    height: 48rem;
+  }
+  .aboutCardContain:nth-child(4) {
+    height: 48rem;
+  }
+  .aboutCardContain:nth-child(5) {
+    height: 48rem;
+  } 
+  .branchContain{
+    margin-right:-0.5em;
+  }
+}
+
+

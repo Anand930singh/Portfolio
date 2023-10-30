@@ -1,0 +1,144 @@
+.skillHead::before {
+    color: #988e9f;
+    font-size: 1.5rem;
+    font-weight: 300;
+    content: "<Skills/>";
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding: 0 0.4em;
+}
+.skillCard{
+    position:relative;
+    width:100%;
+}
+
+.skillHead {
+    margin-bottom: 2rem;
+}
+
+.skillContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    border:1px solid #2d1d5a;
+  border-radius:1rem;
+  overflow: hidden;
+}
+
+.line {
+    position:relative;
+    width:100%;
+    color: white;
+    font-family: Roboto Mono, Courier New, Courier, monospace !important;
+    line-height: 1.6;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #1a1527;
+}
+
+.bracketOpen {
+    margin-left: 1rem;
+}
+
+.bracketClose {
+    margin-left: 3rem;
+}
+
+.const {
+    color: blue;
+}
+
+.count {
+    margin-left:1rem;
+    margin-right: 2rem;
+    width: 2rem;
+    color: grey;
+}
+.dots{
+    color:grey;
+}
+.comments{
+    margin-left: 3rem;
+    color:grey;
+}
+
+.constName {
+    margin-left: 1rem;
+    color: yellow;
+}
+
+.scope {
+    margin-left: 1rem;
+    color: red;
+}
+
+.skillSet {
+    /* margin-left: 6rem; */
+    color: rgb(6, 184, 6);
+}
+
+@media (max-width: 600px) {
+
+    .skillCard{
+        position:relative;
+        width:95%;
+    }
+    .line {
+        position:relative;
+        width:100%;
+        color: white;
+        font-family: Roboto Mono, Courier New, Courier, monospace !important;
+        line-height: 1.6;
+        font-size: 0.9rem;
+        font-weight: 500;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #1a1527;
+    }
+    
+    .bracketOpen {
+        margin-left: 1rem;
+    }
+    
+    .bracketClose {
+        margin-left: 3rem;
+    }
+    
+    .const {
+        color: blue;
+    }
+    
+    .count {
+        margin-left:1rem;
+        margin-right: 2rem;
+        width: 2rem;
+        color: grey;
+    }
+    .dots{
+        color:grey;
+    }
+    .comments{
+        margin-left: 3rem;
+        color:grey;
+    }
+    
+    .constName {
+        margin-left: 1rem;
+        color: yellow;
+    }
+    
+    .scope {
+        margin-left: 1rem;
+        color: red;
+    }
+    
+    .skillSet {
+        /* margin-left: 6rem; */
+        color: rgb(6, 184, 6);
+    }
+}

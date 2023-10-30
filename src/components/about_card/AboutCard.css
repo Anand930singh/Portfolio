@@ -1,0 +1,60 @@
+/* *{
+    height: 100%;
+    width:100%;
+    background-color: black;
+} */
+.aboutCardContainer{
+
+    position: relative;
+    height:auto;
+    width:80%;
+    /* border: 1px solid pink; */
+    padding-left:0.8em;
+    display:grid;
+    grid-template-columns: auto;
+    grid-row-gap: 1rem;
+
+}
+.aboutHead::before{
+    color: #988e9f;
+    font-size: 1.5rem;
+    font-weight: 300;
+    content: "<Start/>";
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding:0 0.4em;
+}
+.aboutHead{
+    margin-bottom: 2rem;
+}
+.aboutIntro{
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.aboutName{
+    color: #5918df;
+    white-space: nowrap;
+}
+.aboutPassion{
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: Palatino,Georgia,Times New Roman,Times,serif;
+}
+.cse{
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .aboutHead::before{
+        font-size:1.4rem;
+    }
+    .aboutIntro{
+        font-size: 1.4em;
+    } 
+    .aboutPassion{
+        font-size: 1.2em;
+    }
+  }
+

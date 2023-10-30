@@ -1,0 +1,9 @@
+.achievHead::before {
+    color: #988e9f;
+    font-size: 1.5rem;
+    font-weight: 300;
+    content: "<Achievements/>";
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding: 0 0.4em;
+  }
