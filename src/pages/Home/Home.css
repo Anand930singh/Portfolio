@@ -5,6 +5,27 @@
   position: absolute;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
 .planet_svg {
   position: relative;
   height: 50vh;
@@ -16,7 +37,7 @@
   position: absolute;
   top: -40rem;
   left: -23rem;
-  height: 65rem;
+  height: 60rem;
   margin: 0;
   transform: rotate(180deg);
 }
