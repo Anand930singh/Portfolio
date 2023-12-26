@@ -55,7 +55,7 @@
 
 @keyframes rotateAnimation {
   from {
-    transform: rotate(90deg);
+    transform: rotate(135deg);
   }
   to {
     transform: rotate(360deg);
