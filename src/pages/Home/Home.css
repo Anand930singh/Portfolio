@@ -67,7 +67,7 @@
 
 .aboutCardContain:nth-child(2) {
   /* align-items: center; */
-  height: 70rem;
+  height: 60rem;
 }
 .aboutCardContain:nth-child(3) {
   align-items: center;
@@ -208,7 +208,7 @@
     height: 39rem;
   }
   .aboutCardContain:nth-child(2) {
-    height: 98rem;
+    height: 118rem;
   }
   .aboutCardContain:nth-child(3) {
     height: 68rem;
@@ -225,6 +225,18 @@
 
   
 
+}
+
+.copyRight{
+  margin-top: -1rem;
+  position:relative;
+  color:white;
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
+}
+.copyRight span{
+  color:rgb(162, 243, 162);
+  font-size:0.8rem;
 }
 
 

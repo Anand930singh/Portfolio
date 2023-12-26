@@ -72,15 +72,6 @@ function Home() {
             <FaGithubSquare size={"1.5rem"} />
           </div>
         </a>
-        <a
-          href="https://www.instagram.com/anandsingh4729/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div>
-            <FaInstagram size={"1.5rem"} />
-          </div>
-        </a>
         <a href="mailto:anand2002king@gmail.com">
           <div>
             <FaMailBulk size={"1.5rem"} />
@@ -146,6 +137,9 @@ function Home() {
           <div className="skillCardHome">
             <Experience />
           </div>
+        </div>
+        <div className="copyRight">
+        Copyright © 2023 Anand930singh <br/>// Designed with  by <span>Anand Kumar Singh</span>
         </div>
       </div>
     </div>
