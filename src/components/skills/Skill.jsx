@@ -46,7 +46,7 @@ function Skill() {
         </div>
         <div className='line'>
           <div className='count'></div>
-          <span className='dots'>..........</span>
+          <span className='dots'>.........</span>
           <span className='skillSet'>JavaScript,</span>
         </div>
         <div className='line'>
@@ -105,12 +105,12 @@ function Skill() {
         </div>
         <div className='line'>
           <div className='count'></div>
-          <span className='dots'>..........</span>
+          <span className='dots'>.........</span>
           <span className='skillSet'>PostgreSQL,</span>
         </div>
         <div className='line'>
           <div className='count'></div>
-          <span className='dots'>..........</span>
+          <span className='dots'>.........</span>
           <span className='skillSet'>PostgreGIS,</span>
         </div>
         <div className="line">
