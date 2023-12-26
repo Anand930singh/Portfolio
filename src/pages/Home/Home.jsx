@@ -13,6 +13,7 @@ import {
   FaInstagram,
   FaMailBulk,
 } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import "./Home.css";
 
 function Home() {
@@ -70,6 +71,11 @@ function Home() {
         <a href="https://github.com/Anand930singh" target="_blank" rel="noopener noreferrer">
           <div>
             <FaGithubSquare size={"1.5rem"} />
+          </div>
+        </a>
+        <a href="https://leetcode.com/Anand930singh/" target="_blank" rel="noopener noreferrer">
+          <div>
+            <SiLeetcode size={"1.5rem"} />
           </div>
         </a>
         <a href="mailto:anand2002king@gmail.com">

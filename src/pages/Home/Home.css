@@ -3,6 +3,16 @@
   width: 100vw;
   height: auto;
   position: absolute;
+  animation: moveBackground 20s linear infinite
+}
+
+@keyframes moveBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0; /* Adjust the direction and axis of movement */
+  }
 }
 
 /* width */
@@ -40,6 +50,16 @@
   height: 60rem;
   margin: 0;
   transform: rotate(180deg);
+  animation: rotateAnimation 150s linear infinite; 
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Styles for screens with a maximum width of 600 pixels (mobile devices) */
