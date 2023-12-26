@@ -71,7 +71,7 @@
 }
 .aboutCardContain:nth-child(3) {
   align-items: center;
-  height: 60rem;
+  height: 70rem;
 }
 .aboutCardContain:nth-child(4) {
   align-items: center;
@@ -211,13 +211,13 @@
     height: 98rem;
   }
   .aboutCardContain:nth-child(3) {
-    height: 48rem;
+    height: 68rem;
   }
   .aboutCardContain:nth-child(4) {
-    height: 48rem;
+    height: 68rem;
   }
   .aboutCardContain:nth-child(5) {
-    height: 48rem;
+    height: 58rem;
   } 
   .branchContain{
     margin-right:-0.5em;

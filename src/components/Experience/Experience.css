@@ -1,0 +1,84 @@
+.expHead::before {
+    color: #988e9f;
+    font-size: 1.5rem;
+    font-weight: 300;
+    content: "<Experiences/>";
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding: 0 0.4em;
+  }
+  @media (max-width: 600px) {
+    .exp{
+      position:relative;
+      width:18rem;
+    }
+    .jobTime{
+      margin-top:0.5rem;
+      margin-left: 1.5rem;
+    }
+  }
+
+  .expHead{
+    margin-bottom: 4rem;
+  }
+
+  .expCard{
+
+    width:100%;
+  }
+
+  .exp{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin-left:1.5rem;
+    position:relative;
+    backdrop-filter: blur(10px);
+    padding-top:1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 7px 0.0001rem green;
+    -moz-box-shadow: 0 0 7px 0.0001rem green;
+    box-shadow: 0 0 7px 0.0001rem green;
+  }
+
+  .compTitle{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    background-color:green;
+    padding-right: 5rem;
+    padding-left:1rem;
+    border-bottom-right-radius: 27px;
+    border-top-right-radius: 27px;
+  }
+  .jobCompany{
+    margin-right:2rem;
+    font-style: italic;
+  }
+  .jobHead{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .jobTitle{
+    font-weight:700;
+    font-size:1.5rem;
+    border-bottom:3px solid white;
+  }
+  .jobTime{
+    font-size:1rem;
+  }
+  .jobDesc{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .jobDesc ul li{
+    margin-bottom: 0.3rem;
+  }

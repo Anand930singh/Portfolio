@@ -30,6 +30,12 @@ function Projects() {
             github:"https://github.com/Anand930singh/CS-102-Project",
             tech:["HTML","CSS","NodeJS","ExpressJS","MongoDB"]
         },
+        {
+            name: "Score Predictor",
+            image:"https://play-lh.googleusercontent.com/zpf3n0cEHwBIRM8O3KKKPVrgb9TkczJ-K4hLzZzKJ7bLAk-isckUHSWwXOfDeIIbFWai=w240-h480-rw",
+            github:"https://github.com/Anand930singh/Cricket-Code-Hack",
+            tech:["HTML","CSS","ReactJS","Python","Jupyter Notebook"]
+        },
     ]
 
   return (

@@ -30,6 +30,10 @@ function Skill() {
           <span className='scope'>=</span>
           <span className='bracketOpen'>[</span>
         </div>
+        <div className="line">
+          <span className='count'></span>
+          <span className='comments'>//languages</span>
+        </div>
         <div className='line'>
           <div className='count'></div>
           <span className='dots'>..........</span>
@@ -43,17 +47,27 @@ function Skill() {
         <div className='line'>
           <div className='count'></div>
           <span className='dots'>..........</span>
+          <span className='skillSet'>JavaScript,</span>
+        </div>
+        <div className='line'>
+          <div className='count'></div>
+          <span className='dots'>..........</span>
+          <span className='skillSet'>Python,</span>
+        </div>
+        <div className="line">
+          <span className='count'></span>
+          <span className='comments'>//web dev.</span>
+        </div>
+        <div className='line'>
+          <div className='count'></div>
+          <span className='dots'>..........</span>
           <span className='skillSet'>HTML,</span>
         </div>
+          
         <div className='line'>
           <div className='count'></div>
           <span className='dots'>..........</span>
           <span className='skillSet'>CSS,</span>
-        </div>
-        <div className='line'>
-          <div className='count'></div>
-          <span className='dots'>..........</span>
-          <span className='skillSet'>JavaScript,</span>
         </div>
         <div className='line'>
           <div className='count'></div>
@@ -73,6 +87,15 @@ function Skill() {
         <div className='line'>
           <div className='count'></div>
           <span className='dots'>..........</span>
+          <span className='skillSet'>NestJS</span>
+        </div>
+        <div className="line">
+          <span className='count'></span>
+          <span className='comments'>//databases</span>
+        </div>
+        <div className='line'>
+          <div className='count'></div>
+          <span className='dots'>..........</span>
           <span className='skillSet'>MongoDB,</span>
         </div>
         <div className='line'>
@@ -83,7 +106,26 @@ function Skill() {
         <div className='line'>
           <div className='count'></div>
           <span className='dots'>..........</span>
-          <span className='skillSet'>NestJS</span>
+          <span className='skillSet'>PostgreSQL,</span>
+        </div>
+        <div className='line'>
+          <div className='count'></div>
+          <span className='dots'>..........</span>
+          <span className='skillSet'>PostgreGIS,</span>
+        </div>
+        <div className="line">
+          <span className='count'></span>
+          <span className='comments'>//tools</span>
+        </div>
+        <div className='line'>
+          <div className='count'></div>
+          <span className='dots'>..........</span>
+          <span className='skillSet'>Git,</span>
+        </div>
+        <div className='line'>
+          <div className='count'></div>
+          <span className='dots'>..........</span>
+          <span className='skillSet'>Docker,</span>
         </div>
         <div className='line'>
           <div className='count'></div>

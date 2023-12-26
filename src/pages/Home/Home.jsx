@@ -6,7 +6,7 @@ import Traceline from "../../components/traceline/Traceline";
 import Skill from "../../components/skills/Skill";
 import Projects from "../Projects/Projects";
 import Education from "../../components/education_card/Education";
-import Achievements from "../../components/achievements/Achievements";
+import Experience from "../../components/Experience/Experience";
 import {
   FaLinkedin,
   FaGithubSquare,
@@ -144,7 +144,7 @@ function Home() {
             <img src={Branch} alt="error" />
           </div> */}
           <div className="skillCardHome">
-            <Achievements />
+            <Experience />
           </div>
         </div>
       </div>
