@@ -86,8 +86,8 @@
 }
 
 .aboutCardContain:nth-child(2) {
-  /* align-items: center; */
-  height: 60rem;
+  align-items: center;
+  height:auto;
 }
 .aboutCardContain:nth-child(3) {
   align-items: center;
@@ -115,10 +115,11 @@
 .projectCards {
   margin-right: 7rem;
   object-fit: cover;
-  position: absolute;
+  /* position: relative; */
   left: -3rem;
   border-radius: 1rem;
   padding-top: 2.5em;
+  margin-bottom: 8rem;
   padding-left: 2.5rem;
   /* border:1px solid yellow; */
   /* background-image: url('https://snapwordz.com/dl/ss/rm_wm/dl.beatsnoop.com-FU2kOBGgb6.jpg'); */

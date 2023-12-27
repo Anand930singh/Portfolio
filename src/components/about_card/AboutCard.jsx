@@ -20,7 +20,7 @@ function AboutCard() {
     return () => {
       clearInterval(intervalId); // Cleanup the interval on component unmount
     };
-  }, []); // Empty dependency array to run effect only once on mount
+  }, []);
 
   return (
     <div className='aboutCardContainer'>
